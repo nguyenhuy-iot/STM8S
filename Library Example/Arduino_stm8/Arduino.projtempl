@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<template>
+  <displayname>Arduino</displayname>
+    <description>Creates an Arduino-like C++ project.
+    </description>
+  <files>
+    <file>$PROJ_DIR$\Sketch.cpp</file>
+  </files>
+</template>
