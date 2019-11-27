@@ -37,7 +37,7 @@
       <StaticWatch>
         <expressions>
           <item>test</item>
-          <item></item>
+          <item/>
         </expressions>
         <col-names>
           <item>Expression</item>
