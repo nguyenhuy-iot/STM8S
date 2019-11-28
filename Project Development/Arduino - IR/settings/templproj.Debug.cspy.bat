@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\admin\Desktop\New folder\Arduino - IR\settings\templproj.Debug.general.xcl" --backend -f "C:\Users\admin\Desktop\New folder\Arduino - IR\settings\templproj.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\admin\Desktop\STM8S\Project Development\Arduino - IR\settings\templproj.Debug.general.xcl" --backend -f "C:\Users\admin\Desktop\STM8S\Project Development\Arduino - IR\settings\templproj.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\admin\Desktop\New folder\Arduino - IR\settings\templproj.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\admin\Desktop\New folder\Arduino - IR\settings\templproj.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\admin\Desktop\STM8S\Project Development\Arduino - IR\settings\templproj.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\admin\Desktop\STM8S\Project Development\Arduino - IR\settings\templproj.Debug.driver.xcl" 
 
 @echo off 
 :end

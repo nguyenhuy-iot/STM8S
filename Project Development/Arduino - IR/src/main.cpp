@@ -1,7 +1,7 @@
 #include "Arduino.h"
 extern void __preinit();
 #include "IRremote.h"
-uint16_t test;
+uint32_t test;
 void main()
 {
   __preinit();
@@ -16,9 +16,5 @@ void main()
   while (1)
   {
     test = IR_receiver();
-    if (test != 0)
-    {
-      delay(3000);
-    }
   }
 }

@@ -3,6 +3,6 @@
 
 #define IR_pin PA2
 
-uint16_t IR_receiver();
+uint32_t IR_receiver();
 
 #endif
