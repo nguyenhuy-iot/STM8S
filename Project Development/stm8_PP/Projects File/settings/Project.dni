@@ -38,7 +38,7 @@ ShowSource=1
 [Simulator]
 Freq=16000000
 [DebugChecksum]
-Checksum=-259148329
+Checksum=789972601
 [CallStack]
 ShowArgs=0
 [Disassembly]
@@ -49,8 +49,6 @@ Fmt0={W}42:T	3	0
 LogEnabled=0
 GraphEnabled=0
 ShowTimeLog=1
-[Breakpoints]
-Count=0
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -58,8 +56,11 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
-[Aliases]
+[Breakpoints]
 Count=0
-SuppressDialog=0
+[Aliases]
+A0=_ "C:\Users\admin\Desktop\New folder\stm8\DriverLib\src\stm8s_clk.c" ""
+Count=1
+SuppressDialog=1
 [DebuggerSettings]
 DisableInterruptsWhenStepping=0
