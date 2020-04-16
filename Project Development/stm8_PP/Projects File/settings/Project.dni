@@ -38,13 +38,15 @@ ShowSource=1
 [Simulator]
 Freq=16000000
 [DebugChecksum]
-Checksum=789972601
+Checksum=967581185
 [CallStack]
 ShowArgs=0
 [Disassembly]
 MixedMode=1
 [watch_formats]
 Fmt0={W}42:T	3	0
+Fmt1={W}42:_rxbuflen	3	0
+Fmt2={W}42:_rxbufpos	3	0
 [DataSample]
 LogEnabled=0
 GraphEnabled=0

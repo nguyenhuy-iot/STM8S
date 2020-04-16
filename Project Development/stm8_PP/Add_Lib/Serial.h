@@ -7,7 +7,8 @@
 
 #define SERIALBUFFERED
 
-class HardwareSerial : public Print {
+class HardwareSerial : public Print
+{
 public:
   static void begin(uint32_t baud);
   static void end();
@@ -18,9 +19,11 @@ public:
   size_t write(uint8_t c);
   static void flush();
 #ifdef SERIALBUFFERED
-  static bool error() {
+  static bool error()
+  {
     return _error;
   }
+
 protected:
   static const uint8_t RXBUFSIZE = 16, TXBUFSIZE = 16;
   static volatile bool _error;

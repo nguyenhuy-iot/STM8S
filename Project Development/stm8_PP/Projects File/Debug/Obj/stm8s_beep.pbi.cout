@@ -1,12 +1,12 @@
-"C:\Users\admin\Desktop\New folder\stm8\DriverLib\src\stm8s_beep.c"
+"C:\Users\Nguyen Huy\Desktop\New folder (2)\stm8_PP\DriverLib\src\stm8s_beep.c"
 -std=c++98
 -ferror-limit=100
 -I
-C:\Users\admin\Desktop\New folder\stm8\Projects File\..\DriverLib\inc
+C:\Users\Nguyen Huy\Desktop\New folder (2)\stm8_PP\Projects File\..\DriverLib\inc
 -I
-C:\Users\admin\Desktop\New folder\stm8\Projects File\..\UserFile
+C:\Users\Nguyen Huy\Desktop\New folder (2)\stm8_PP\Projects File\..\UserFile
 -I
-C:\Users\admin\Desktop\New folder\stm8\Projects File\..\Add_Lib
+C:\Users\Nguyen Huy\Desktop\New folder (2)\stm8_PP\Projects File\..\Add_Lib
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc
 -I
@@ -14,11 +14,11 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc\c
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc\ecpp
 -I
-C:\Users\admin\Desktop\New folder\stm8\DriverLib\inc
+C:\Users\Nguyen Huy\Desktop\New folder (2)\stm8_PP\DriverLib\inc
 -I
-C:\Users\admin\Desktop\New folder\stm8\UserFile
+C:\Users\Nguyen Huy\Desktop\New folder (2)\stm8_PP\UserFile
 -I
-C:\Users\admin\Desktop\New folder\stm8\Add_Lib
+C:\Users\Nguyen Huy\Desktop\New folder (2)\stm8_PP\Add_Lib
 -DSTM8S103=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff

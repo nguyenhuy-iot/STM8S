@@ -23,6 +23,22 @@ void clk_config_16MHz_hsi(void)
 void SETUP()
 {
   clk_config_16MHz_hsi();
+  UART1_DeInit();
+  /* UART1 configuration ------------------------------------------------------*/
+  /* UART1 configured as follow:
+        - BaudRate = 115200 baud  
+        - Word Length = 8 Bits
+        - One Stop Bit
+        - No parity
+        - Receive and transmit enabled
+        - UART1 Clock disabled
+  */
+  //TX PD5; RX PD6
+  UART1_Init((uint32_t)115200, UART1_WORDLENGTH_8D, UART1_STOPBITS_1, UART1_PARITY_NO,
+             UART1_SYNCMODE_CLOCK_DISABLE, UART1_MODE_TXRX_ENABLE);
+  UART1_ITConfig(UART1_IT_RXNE_OR, ENABLE);
+  UART1_Cmd(ENABLE); //enableInterrupts();
+
   ////GPIO////
   GPIO_DeInit(GPIOB);
   GPIO_DeInit(GPIOA);
@@ -31,6 +47,7 @@ void SETUP()
   ////Setup EXTI/////
   GPIO_Init(GPIOA, GPIO_PIN_2, GPIO_MODE_IN_PU_IT);
   EXTI_SetExtIntSensitivity(EXTI_PORT_GPIOA, EXTI_SENSITIVITY_RISE_ONLY);
+
   ////Setup TIM4/////
   TIM4_TimeBaseInit(TIM4_PRESCALER_128, 124); //1ms if fMaster=16Mhz (16 MHz / 128 = 125 kHz / 125 = 1 kHz = 1 ms)
   TIM4_ClearFlag(TIM4_FLAG_UPDATE);

@@ -1593,6 +1593,18 @@
   <group>
     <name>Add_Lib</name>
     <file>
+      <name>$PROJ_DIR$\..\Add_Lib\Print.cpp</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Add_Lib\Print.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Add_Lib\Serial.cpp</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Add_Lib\Serial.h</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\Add_Lib\stm8s_config.c</name>
     </file>
     <file>

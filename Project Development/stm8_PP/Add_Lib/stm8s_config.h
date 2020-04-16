@@ -7,6 +7,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include <stddef.h>
 #include "stm8s.h"
+#include "Serial.h"
 
 #define LED_BUILTIN GPIOB, GPIO_PIN_5
 

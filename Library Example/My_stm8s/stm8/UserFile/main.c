@@ -14,7 +14,7 @@ void main(void)
   {
     GPIO_WriteReverse(LED_BUILTIN);
     delay(1000);
-    Serial.println((uint8_t)10,BIN);
+    Serial.println((uint8_t)10, BIN);
   }
 }
 

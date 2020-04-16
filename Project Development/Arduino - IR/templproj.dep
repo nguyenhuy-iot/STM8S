@@ -6,133 +6,104 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\src\preinit.cpp</file>
-      <file>$PROJ_DIR$\inc\EEPROM.h</file>
-      <file>$PROJ_DIR$\inc\Printable.h</file>
-      <file>$PROJ_DIR$\Sketch.cpp</file>
-      <file>$PROJ_DIR$\src\main.cpp</file>
-      <file>$PROJ_DIR$\inc\Serial.h</file>
-      <file>$PROJ_DIR$\src\Arduino.cpp</file>
-      <file>$PROJ_DIR$\src\Rand.cpp</file>
-      <file>$PROJ_DIR$\inc\Print.h</file>
-      <file>$PROJ_DIR$\inc\Rand.h</file>
-      <file>$PROJ_DIR$\src\Serial.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\Arduino.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Serial.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Print.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
       <file>$PROJ_DIR$\UserFile\IRremote.cpp</file>
       <file>$PROJ_DIR$\UserFile\IRremote.h</file>
-      <file>$PROJ_DIR$\inc\Arduino.h</file>
-      <file>$PROJ_DIR$\src\Print.cpp</file>
-      <file>$PROJ_DIR$\src\EEPROM.cpp</file>
-      <file>$PROJ_DIR$\inc\stm8s.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\Serial.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\Arduino.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\Print.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\src\main.cpp</file>
+      <file>$PROJ_DIR$\src\Rand.cpp</file>
+      <file>$PROJ_DIR$\Sketch.cpp</file>
       <file>$PROJ_DIR$\Debug\Obj\preinit.o</file>
-      <file>$TOOLKIT_DIR$\config\lnkstm8s103f3.icf</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\STM8_Arduino.out</file>
-      <file>$PROJ_DIR$\Debug\Obj\templproj.pbd</file>
-      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\Rand.pbi</file>
+      <file>$PROJ_DIR$\inc\Print.h</file>
+      <file>$PROJ_DIR$\src\Arduino.cpp</file>
+      <file>$PROJ_DIR$\inc\EEPROM.h</file>
+      <file>$PROJ_DIR$\inc\stm8s.h</file>
+      <file>$PROJ_DIR$\src\preinit.cpp</file>
+      <file>$PROJ_DIR$\inc\Rand.h</file>
+      <file>$PROJ_DIR$\inc\Arduino.h</file>
+      <file>$PROJ_DIR$\inc\Serial.h</file>
+      <file>$PROJ_DIR$\inc\Printable.h</file>
+      <file>$PROJ_DIR$\src\EEPROM.cpp</file>
+      <file>$PROJ_DIR$\src\Print.cpp</file>
+      <file>$PROJ_DIR$\src\Serial.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\IRremote.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Sketch.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Serial.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Print.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\IRremote.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\EEPROM.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Arduino.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\List\STM8_Arduino.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\preinit.__cstat.et</file>
       <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\Arduino.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
       <file>$PROJ_DIR$\Debug\Obj\Sketch.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\Sketch.o</file>
-      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\Rand.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\EEPROM.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\Serial.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\EEPROM.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\Print.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\preinit.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\Rand.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\IRremote.pbi</file>
       <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-      <file>$PROJ_DIR$\Debug\Obj\preinit.__cstat.et</file>
-      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\Arduino.__cstat.et</file>
-      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\Serial.__cstat.et</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\IRremote.__cstat.et</file>
-      <file>$PROJ_DIR$\Debug\Obj\Sketch.__cstat.et</file>
-      <file>$PROJ_DIR$\Debug\Obj\IRremote.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\EEPROM.__cstat.et</file>
-      <file>$PROJ_DIR$\Debug\List\STM8_Arduino.map</file>
-      <file>$PROJ_DIR$\Debug\Obj\Print.__cstat.et</file>
-      <file>$PROJ_DIR$\..\..\..\New folder\Arduino - IR\src\main.cpp</file>
-      <file>$PROJ_DIR$\..\..\..\New folder\Arduino - IR\src\Arduino.cpp</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8s103f3.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\templproj.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\EEPROM.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Arduino.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Serial.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Print.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\STM8_Arduino.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\preinit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Rand.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\Rand.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\EEPROM.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Sketch.o</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 25 62</file>
+          <file> 57 35</file>
         </tool>
       </outputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\src\preinit.cpp</name>
+      <name>$PROJ_DIR$\UserFile\IRremote.cpp</name>
       <outputs>
         <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
           <name>ICCSTM8</name>
-          <file> 22</file>
+          <file> 30</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 51</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 46</file>
+          <file> 23</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICCSTM8</name>
-          <file> 16 49</file>
-        </tool>
-        <tool>
           <name>BICOMP</name>
-          <file> 16 49</file>
+          <file> 55 38 16 28 26 32 42 14 6 18 1 49 43 50 17 11 19</file>
         </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Sketch.cpp</name>
-      <outputs>
         <tool>
           <name>ICCSTM8</name>
-          <file> 38</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 58</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 33</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCSTM8</name>
-          <file> 13 54 52 60 20 37 35 28 24 36 16 49 9 5 8 2</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 16 60 9 36 28 52 54 5 20 24 37 35 49 13 8 2</file>
+          <file> 17 32 28 26 1 43 50 38 49 55 14 42 16 18 11 19 6</file>
         </tool>
       </inputs>
     </file>
@@ -140,53 +111,26 @@
       <name>$PROJ_DIR$\src\main.cpp</name>
       <outputs>
         <tool>
-          <name>ICCSTM8</name>
-          <file> 34</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 50</file>
-        </tool>
-        <tool>
           <name>BICOMP</name>
-          <file> 45</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCSTM8</name>
-          <file> 13 54 52 60 20 37 35 28 24 36 16 49 9 5 8 2 12</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 52 16 60 20 37 5 24 35 49 12 54 9 36 28 13 8 2</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\Arduino.cpp</name>
-      <outputs>
-        <tool>
-          <name>ICCSTM8</name>
-          <file> 18</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
           <file> 53</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 32</file>
+          <name>ICCSTM8</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 33</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICCSTM8</name>
-          <file> 13 54 52 60 20 37 35 28 24 36 16 49 9 5 8 2</file>
+          <name>BICOMP</name>
+          <file> 28 14 26 1 43 18 49 50 42 6 32 16 55 38 17 11 19</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 16 5 52 36 28 60 49 13 54 9 20 24 37 35 8 2</file>
+          <name>ICCSTM8</name>
+          <file> 17 32 28 26 1 43 50 38 49 55 14 42 16 18 11 19 6</file>
         </tool>
       </inputs>
     </file>
@@ -194,107 +138,107 @@
       <name>$PROJ_DIR$\src\Rand.cpp</name>
       <outputs>
         <tool>
-          <name>ICCSTM8</name>
-          <file> 40</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 47</file>
-        </tool>
-        <tool>
           <name>BICOMP</name>
-          <file> 30</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCSTM8</name>
-          <file> 9 16 49 56 52 60 20 37 35 28 24 36</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 35 52 60 20 28 56 16 24 37 9 49 36</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\src\Serial.cpp</name>
-      <outputs>
-        <tool>
-          <name>ICCSTM8</name>
-          <file> 17</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 55</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 42</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCSTM8</name>
-          <file> 5 54 52 60 20 37 35 28 24 36 16 49 8 2</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 16 52 36 28 60 54 8 20 24 37 35 5 49 2</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\UserFile\IRremote.cpp</name>
-      <outputs>
-        <tool>
-          <name>ICCSTM8</name>
           <file> 59</file>
         </tool>
         <tool>
-          <name>__cstat</name>
-          <file> 57</file>
+          <name>ICCSTM8</name>
+          <file> 61</file>
         </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 28 26 1 38 29 14 49 43 16 42 55</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 16 14 42 29 28 26 1 43 50 38 49 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Sketch.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 26 16 55 38 28 32 18 1 49 43 50 42 17 11 19</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 17 32 28 26 1 43 50 38 49 55 14 42 16 18 11 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Arduino.cpp</name>
+      <outputs>
         <tool>
           <name>BICOMP</name>
           <file> 48</file>
         </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 34</file>
+        </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICCSTM8</name>
-          <file> 13 54 52 60 20 37 35 28 24 36 16 49 9 5 8 2 12</file>
+          <name>BICOMP</name>
+          <file> 14 18 28 55 38 26 42 17 32 16 1 49 43 50 11 19</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 36 28 9 52 60 54 49 16 12 5 20 24 37 35 13 8 2</file>
+          <name>ICCSTM8</name>
+          <file> 17 32 28 26 1 43 50 38 49 55 14 42 16 18 11 19</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\src\Print.cpp</name>
+      <name>$PROJ_DIR$\src\preinit.cpp</name>
       <outputs>
         <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
           <name>ICCSTM8</name>
-          <file> 44</file>
+          <file> 10</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 63</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 19</file>
+          <file> 36</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICCSTM8</name>
-          <file> 27 52 21 60 20 37 35 28 24 31 8 54 36 16 49 2</file>
+          <name>BICOMP</name>
+          <file> 14 42</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 21 16 36 8 52 31 28 60 27 20 24 37 35 54 2 49</file>
+          <name>ICCSTM8</name>
+          <file> 14 42</file>
         </tool>
       </inputs>
     </file>
@@ -302,26 +246,80 @@
       <name>$PROJ_DIR$\src\EEPROM.cpp</name>
       <outputs>
         <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
           <name>ICCSTM8</name>
-          <file> 41</file>
+          <file> 62</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 61</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 43</file>
+          <file> 31</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICCSTM8</name>
-          <file> 1 16 49</file>
+          <name>BICOMP</name>
+          <file> 14 13 42</file>
         </tool>
         <tool>
+          <name>ICCSTM8</name>
+          <file> 13 14 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Print.cpp</name>
+      <outputs>
+        <tool>
           <name>BICOMP</name>
-          <file> 16 1 49</file>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 14 55 11 28 37 38 26 47 1 49 43 50 32 19 42</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 47 28 4 26 1 43 50 38 49 37 11 32 55 14 42 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Serial.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 28 55 38 26 32 11 1 49 43 50 18 42 19</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 18 32 28 26 1 43 50 38 49 55 14 42 11 19</file>
         </tool>
       </inputs>
     </file>
@@ -330,13 +328,13 @@
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 62</file>
+          <file> 35</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 23 18 41 59 34 22 44 40 17 38 39 29</file>
+          <file> 44 0 62 30 56 10 52 61 2 63 54 60</file>
         </tool>
       </inputs>
     </file>

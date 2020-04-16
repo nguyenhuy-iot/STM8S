@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "stm8s_config.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

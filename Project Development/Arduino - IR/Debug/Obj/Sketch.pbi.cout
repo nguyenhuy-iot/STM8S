@@ -1,10 +1,10 @@
-"C:\Users\admin\Desktop\New folder\Arduino - IR\Sketch.cpp"
+"C:\Users\Nguyen Huy\Desktop\STM8S\Project Development\Arduino - IR\Sketch.cpp"
 -std=c++98
 -ferror-limit=100
 -I
-C:\Users\admin\Desktop\New folder\Arduino - IR\inc
+C:\Users\Nguyen Huy\Desktop\STM8S\Project Development\Arduino - IR\inc
 -I
-C:\Users\admin\Desktop\New folder\Arduino - IR\UserFile
+C:\Users\Nguyen Huy\Desktop\STM8S\Project Development\Arduino - IR\UserFile
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc
 -I
@@ -12,9 +12,9 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc\c
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc\ecpp
 -I
-C:\Users\admin\Desktop\New folder\Arduino - IR\inc
+C:\Users\Nguyen Huy\Desktop\STM8S\Project Development\Arduino - IR\inc
 -I
-C:\Users\admin\Desktop\New folder\Arduino - IR\UserFile
+C:\Users\Nguyen Huy\Desktop\STM8S\Project Development\Arduino - IR\UserFile
 -DSTM8S103=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff

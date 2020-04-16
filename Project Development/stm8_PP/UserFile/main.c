@@ -1,18 +1,22 @@
 #include "stm8s.h"
 #include "stm8s_config.h"
+
 extern void __preinit();
-bool T;
 void main(void)
 {
   SETUP();
-  //delay_ms(100);
-  T = pulseIn(GPIOA, GPIO_PIN_1,0,3000000);
+  delay_ms(1000);
+  Serial.println("READY...");
   while (1)
   {
     GPIO_WriteHigh(LED_BUILTIN);
     delay_us(100000);
     GPIO_WriteLow(LED_BUILTIN);
     delay_ms(100);
+    if (Serial.available())
+    {
+      Serial.write(Serial.read());
+    }
   }
 }
 
