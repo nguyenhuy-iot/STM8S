@@ -1,7 +1,8 @@
 #include "stm8s.h"
 #include "stm8s_config.h"
+#include "string.h"
+#include "Cmd.h"
 
-extern void __preinit();
 void main(void)
 {
   SETUP();
@@ -13,10 +14,7 @@ void main(void)
     delay_us(100000);
     GPIO_WriteLow(LED_BUILTIN);
     delay_ms(100);
-    if (Serial.available())
-    {
-      Serial.write(Serial.read());
-    }
+    cmd.run();
   }
 }
 

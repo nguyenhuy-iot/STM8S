@@ -1943,6 +1943,12 @@
   <group>
     <name>Add_Lib</name>
     <file>
+      <name>$PROJ_DIR$\..\Add_Lib\Cmd.cpp</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Add_Lib\Cmd.h</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\Add_Lib\Print.cpp</name>
     </file>
     <file>

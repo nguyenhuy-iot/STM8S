@@ -130,4 +130,5 @@ void TIM1_IT()
   __us += 256;
   TIM1_ClearITPendingBit(TIM1_IT_UPDATE);
 }
+
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
