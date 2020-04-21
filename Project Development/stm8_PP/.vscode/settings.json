@@ -6,6 +6,7 @@
         "unordered_map": "cpp",
         "stm8s_config.h": "c",
         "ostream": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "random": "cpp"
     }
 }

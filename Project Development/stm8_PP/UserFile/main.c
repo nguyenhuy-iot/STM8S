@@ -2,7 +2,7 @@
 #include "stm8s_config.h"
 #include "string.h"
 #include "Cmd.h"
-
+uint32_t test;
 void main(void)
 {
   SETUP();
@@ -11,10 +11,10 @@ void main(void)
   while (1)
   {
     GPIO_WriteHigh(LED_BUILTIN);
-    delay_us(100000);
+    delay_ms(100);
     GPIO_WriteLow(LED_BUILTIN);
     delay_ms(100);
-    cmd.run();
+    cmd.Event();
   }
 }
 

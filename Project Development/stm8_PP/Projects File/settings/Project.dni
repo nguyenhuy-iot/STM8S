@@ -38,7 +38,7 @@ ShowSource=1
 [Simulator]
 Freq=16000000
 [DebugChecksum]
-Checksum=-1344036868
+Checksum=-255253445
 [CallStack]
 ShowArgs=0
 [Disassembly]
@@ -48,12 +48,12 @@ Fmt0={W}42:T	3	0
 Fmt1={W}42:_rxbuflen	3	0
 Fmt2={W}42:_rxbufpos	3	0
 Fmt3={W}42:notation	3	0
+Fmt4={W}42:test	3	0
+Fmt5={W}42:text._len	3	0
 [DataSample]
 LogEnabled=0
 GraphEnabled=0
 ShowTimeLog=1
-[Breakpoints]
-Count=0
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -61,6 +61,8 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
+[Breakpoints]
+Count=0
 [Aliases]
 A0=_ "C:\Users\admin\Desktop\New folder\stm8\DriverLib\src\stm8s_clk.c" ""
 Count=1

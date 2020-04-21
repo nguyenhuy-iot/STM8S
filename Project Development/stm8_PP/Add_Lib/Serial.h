@@ -25,7 +25,7 @@ public:
   }
 
 protected:
-  static const uint8_t RXBUFSIZE = 16, TXBUFSIZE = 16;
+  static const uint8_t RXBUFSIZE = 64, TXBUFSIZE = 64;
   static volatile bool _error;
   static volatile uint8_t _rxbuf[RXBUFSIZE];
   static uint8_t _txbuf[TXBUFSIZE];
